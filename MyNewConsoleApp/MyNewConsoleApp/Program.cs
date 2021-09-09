@@ -10,11 +10,14 @@ namespace MyNewConsoleApp
     {
         static void Main(string[] args)
         {
-            int x = 0;
-            bool y = false;
-            if (y==true)
+            string y=args[0];
+            if (y=="1")
             {
-
+                Console.WriteLine("hi");
+            }
+            else
+            {
+                Console.WriteLine("bye");
             }
         }
 
